@@ -1,0 +1,7 @@
+/Users/zelmarvazquezvazquez/Documents/demo-feign/src/main/java/com/sample/feign/controller/UserController.java
+/Users/zelmarvazquezvazquez/Documents/demo-feign/src/main/java/com/sample/feign/service/UserService.java
+/Users/zelmarvazquezvazquez/Documents/demo-feign/src/main/java/com/sample/feign/client/FolioClient.java
+/Users/zelmarvazquezvazquez/Documents/demo-feign/src/main/java/com/sample/feign/DemoFeignApplication.java
+/Users/zelmarvazquezvazquez/Documents/demo-feign/src/main/java/com/sample/feign/model/UserResponse.java
+/Users/zelmarvazquezvazquez/Documents/demo-feign/src/main/java/com/sample/feign/service/impl/UserServiceImpl.java
+/Users/zelmarvazquezvazquez/Documents/demo-feign/src/main/java/com/sample/feign/model/UserRequest.java
