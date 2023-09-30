@@ -1,0 +1,13 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,beans,loggers,env
+  endpoint:
+    health:
+      show-details: "ALWAYS"
+---
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG

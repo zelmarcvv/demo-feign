@@ -1,0 +1,5 @@
+APP_NAME=demo-feign
+ENV=DEV
+IMAGE=zelmarcvv/demo-feign
+SPRING_PROFILES_ACTIVE=docker, DEV
+ROUTER_HOST=demo-feign.console.apps-crc.testing

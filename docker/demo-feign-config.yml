@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-feign-cm
+data:
+  application-DEV.yaml: |-
+    management:
+      endpoints:
+        web:
+          exposure:
+            include: health,beans,loggers,env
+      endpoint:
+        health:
+          show-details: "ALWAYS"
+    
+    logging:
+      level:
+        ROOT: INFO
+    
+    connection:
+      service:
+        url: http://demo-feign.tst-namespace-default.svc.cluster.local/

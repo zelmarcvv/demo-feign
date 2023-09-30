@@ -1,0 +1,31 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,beans,loggers,env
+  endpoint:
+    health:
+      show-details: "ALWAYS"
+---
+spring:
+  data:
+    mongodb:
+      host: http://cluster78645.ezeb8yv.mongodb.net
+      user: Cluster78645
+      password: V3FpdGtSfFRH
+      database: users
+      ##uri: mongodb+srv://Cluster78645:V3FpdGtSfFRH@cluster78645.ezeb8yv.mongodb.net/
+  #config:
+  #  activate:
+  #    on-profile: docker, DEV
+  profiles:
+    active: LOCAL
+  ##data:
+    ##mongodb:
+      ##host: mongodb
+      ##uri: mongodb://127.0.0.1:27017/users?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.8.2
+
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
