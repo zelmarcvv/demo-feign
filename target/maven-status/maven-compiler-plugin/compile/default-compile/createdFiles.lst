@@ -1,7 +1,0 @@
-com/sample/feign/service/UserService.class
-com/sample/feign/model/UserResponse.class
-com/sample/feign/client/FolioClient.class
-com/sample/feign/controller/UserController.class
-com/sample/feign/service/impl/UserServiceImpl.class
-com/sample/feign/model/UserRequest.class
-com/sample/feign/DemoFeignApplication.class

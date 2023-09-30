@@ -1,8 +1,0 @@
----
-spring:
-  application:
-    name: demo-feign
-  cloud:
-    config:
-      server:
-        uri: http://localhost:8888
